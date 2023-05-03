@@ -25,7 +25,8 @@ if 'Friends' not in st.session_state:
 
 # show the consent message only the first time
 if 'Consent' not in st.session_state:
-  st.info('BookCrossing respects your data. Our policy complies with the GDPR. We use pseudonymisation and encryption to collect your personal data and to use them \
+  st.info('Welcome , Hello Jayesh here\
+          BookCrossing respects your data. Our policy complies with the Indian IT Laws. We use pseudonymisation and encryption to collect your personal data and to use them \
           only for recommendations purposes. By clicking ok you consent to these terms ')
   data_consent_button = st.button("Ok")
   placeholder = st.empty()
