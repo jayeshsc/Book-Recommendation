@@ -25,10 +25,10 @@ if 'Friends' not in st.session_state:
 
 # show the consent message only the first time
 if 'Consent' not in st.session_state:
-  st.info('Welcome , Hello Jayesh here\
+  st.info('Welcome , Hello Jayesh here , \
           BookCrossing respects your data. Our policy complies with the Indian IT Laws. We use pseudonymisation and encryption to collect your personal data and to use them \
           only for recommendations purposes. By clicking ok you consent to these terms ')
-  data_consent_button = st.button("Ok")
+  data_consent_button = st.button("I Accept the Terms")
   placeholder = st.empty()
   st.session_state['Consent'] = True
   if data_consent_button: 
