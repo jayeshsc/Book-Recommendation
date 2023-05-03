@@ -111,7 +111,9 @@ df = rs.head(10)
 print(df)
 t.recommendations(df)
 
+st.subheader('PROJECT BY JAYESH S CHAUDHARI (RA201102011028010094)')
 st.subheader('About us')
+
 st.write('BookCrossing is an online platform that allows users to share and read books by connecting with other users from the platform. \
           The first set of recommendations that you see are based on your previous books and suggest your favorite authors. If there are no previous readings of yours, random authors are chosen. \
           The second set of recommendations are based on your BookCrossing friends list. If the list is empty, it is initialized by 4 User-IDs: [277427, 278026, 277523, 276680]. \
