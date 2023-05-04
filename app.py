@@ -25,7 +25,7 @@ if 'Friends' not in st.session_state:
 
 # show the consent message only the first time
 if 'Consent' not in st.session_state:
-  st.info('Welcome , Hello Jayesh here , \
+  st.info('Welcome , Hello Jayesh & Aditya here , \
           BookCrossing respects your data. Our policy complies with the Indian IT Laws. We use pseudonymisation and encryption to collect your personal data and to use them \
           only for recommendations purposes. By clicking ok you consent to these terms ')
   data_consent_button = st.button("I Accept the Terms")
@@ -121,6 +121,7 @@ st.write('BookCrossing is an online platform that allows users to share and read
           The second set of recommendations are based on your BookCrossing friends list. If the list is empty, it is initialized by 4 User-IDs: [277427, 278026, 277523, 276680]. \
           Finally, the last set of recommendations are based on users that have rated common books with the ones that you choose, and therefore share your interests.')
 st.subheader('PROJECT BY JAYESH S CHAUDHARI (RA2011028010094)')
+st.subheader('ADITYA SINGH (RA2011028010089)')
 
 # Define the sidebar buttons / text inputs
 userid = st.sidebar.text_input("User-ID", placeholder="Currently logged in as user: 98783")
