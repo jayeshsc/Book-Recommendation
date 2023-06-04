@@ -116,9 +116,9 @@ t.recommendations(df)
 
 st.subheader('About')
 
-st.write('BookCrossing is an online platform that allows users to share and read books by connecting with other users from the platform. \
+st.write('BookZ is an online platform that allows users to share and read books by connecting with other users from the platform. \
           The first set of recommendations that you see are based on your previous books and suggest your favorite authors. If there are no previous readings of yours, random authors are chosen. \
-          The second set of recommendations are based on your BookCrossing friends list. If the list is empty, it is initialized by 4 User-IDs: [277427, 278026, 277523, 276680]. \
+          The second set of recommendations are based on your BookZ friends list. If the list is empty, it is initialized by 4 User-IDs: [277427, 278026, 277523, 276680]. \
           Finally, the last set of recommendations are based on users that have rated common books with the ones that you choose, and therefore share your interests.')
 st.subheader('PROJECT BY JAYESH S CHAUDHARI (RA2011028010094)')
 st.subheader('ADITYA SINGH (RA2011028010089)')
